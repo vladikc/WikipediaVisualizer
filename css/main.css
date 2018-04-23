@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4ea9e6;
+  
+}
+
+.main{
+  padding: 3vh 5vw 3vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer{
+  /* border: 1px solid black; */
+  min-width: 17vw;
+  max-width: 17vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  margin-bottom: 3vh;
+}
+
+.imageContainer img{
+  width: 100%;
+}
+
+
+
+/* 001 button code got generated on this website http://css3buttongenerator.com/ */
+
+.random  {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 6px 16px 9px 15px;
+  text-decoration: none;
+}
+
+.random:hover {
+  background: #350bde;
+  background-image: -webkit-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: -moz-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: -ms-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: -o-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: linear-gradient(to bottom, #350bde, #4ea9e6);
+  text-decoration: none;
+}
+
+.search {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 6px 16px 9px 15px;
+  text-decoration: none;
+}
+
+.search:hover {
+  background: #350bde;
+  background-image: -webkit-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: -moz-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: -ms-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: -o-linear-gradient(top, #350bde, #4ea9e6);
+  background-image: linear-gradient(to bottom, #350bde, #4ea9e6);
+  text-decoration: none;
+}
+/* 001 end custom button */
+
+/* 002  custom Text input generated here http://doodlenerd.com/html-control/css-textbox-generator */
+.searchTerm {
+  padding: 13px;
+  font-size: 21px;
+  border-width: 5px;
+  border-color: #CCCCCC;
+  background-color: #0098fd;
+  color: #000000;
+  border-style: solid;
+  border-radius: 33px;
+  box-shadow: 10px 0px 11px rgba(68,3,207,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.searchTerm {
+  outline:none;
+}
+
+/* 002 end custom Text input */
+
+
+
+.output {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  margin: 20px;
+  text-decoration: none;
+  color: #222;
+  transition: all 200ms;
+  max-width: 90vh;
+}
